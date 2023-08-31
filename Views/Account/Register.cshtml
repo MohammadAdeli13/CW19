@@ -1,0 +1,63 @@
+﻿@{
+    Layout = "~/Views/Shared/_AccountLayout.cshtml";
+}
+
+
+
+<h2 class="text-center my-4">Create your account</h2>
+<form class="my-3" method="post" action="Register">
+
+
+    <div class="mb-3">
+        <label class="form-label" for="Name"> name:</label>
+        <input class="form-control" name="Name" type="text" placeholder="name" required />
+    </div>
+
+
+    <div class="mb-3">
+        <label class="form-label" for="NationalCode"> national code:</label>
+        <input class="form-control" name="NationalCode" type="text" placeholder="national code" required />
+    </div>
+
+
+    <div class="mb-3">
+        <label class="form-label" for="Email"> email address:</label>
+        <input class="form-control" name="Email" type="email" placeholder="email address" required />
+    </div>
+
+
+    <div class="mb-3">
+        <label class="form-label" for="PhoneNumber"> phone number:</label>
+        <input class="form-control" name="PhoneNumber" type="text" placeholder="phone number" required />
+    </div>
+
+
+    <div class="mb-3">
+        <label class="form-label" for="Password"> password:</label>
+        <input class="form-control" name="Password" type="text" placeholder="password" required />
+    </div>
+
+
+@*    <div class="mb-3">
+        <input class="form-control" name="repeatPassword" type="text" placeholder="repeat password" required />
+    </div>*@
+
+
+    <div class="mb-3">
+        <label class="form-label" for="Role"> role:</label>
+        <select class="form-select" name="Role" aria-label="role">
+            <option value="customer">customer</option>
+            <option value="warehouseman">warehouse man</option>
+            <option value="admin">admin</option>
+        </select>
+    </div>
+
+
+    <div class="d-grid">
+        <button class="btn btn-primary btn-lg" type="submit">Sign up</button>
+    </div>
+
+
+</form>
+
+<a class="btn btn-secondary btn-sm" asp-controller="Home" asp-action="Index">Back</a>

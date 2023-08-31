@@ -1,0 +1,36 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h2>Home Page</h2>
+
+
+
+@*@{
+    foreach (var item in Model) {
+        <div class="col mb-5">
+            <div class="card h-100">
+                <!-- Product image-->
+                <div class="align-content-center">
+                <img class="card-img-top img-thumbnail" style="width:18rem;height:13rem" src="@item.Photo" alt="@item.Title"/>
+                </div>
+                <!-- Product details-->
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <!-- Product name-->
+                        <h5 class="fw-bolder">@item.Name</h5>
+                        <!-- Product description-->
+                        <p class="card-text">@item.Description</p>
+                        <!-- Product price-->
+                        $@item.Price
+                    </div>
+                </div>
+                <!-- Product actions-->
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Buy</a></div>
+                </div>
+            </div>
+        </div>
+    }
+}*@

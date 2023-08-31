@@ -1,0 +1,43 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+
+<h1 class="mt-4">Create Product</h1>
+<div class="card mb-4">
+    <div class="card-body">
+
+
+
+
+        <form>
+            <div class="form-group my-2">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Enter the product name">
+            </div>
+            <div class="form-group my-2">
+                <label for="title">Title</label>
+                <input type="text" class="form-control" id="title" name="title" placeholder="Enter the product title">
+            </div>
+            <div class="form-group my-2">
+                <label for="price">Price</label>
+                <input type="number" class="form-control" id="price" name="price" placeholder="Enter the product price" min="0" step=".01">
+            </div>
+            <div class="form-group my-2">
+                <label for="quantity">Quantity</label>
+                <input type="number" class="form-control" id="quantity" name="quantity" placeholder="Enter the product quantity" min="0">
+            </div>
+            <div class="form-group my-2">
+                <label for="description">Description</label>
+                <textarea class="form-control" id="description" name="description" rows="3" placeholder="Enter the product description"></textarea>
+            </div>
+            <button type="submit" class="btn btn-secondary mt-3">Create Product</button>
+        </form>
+
+
+
+
+
+    </div>
+</div>

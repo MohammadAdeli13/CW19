@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Meta\\Desktop\\maktab\\_projects\\Store\\Store\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Store.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Store.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Meta\\Desktop\\maktab\\_projects\\Store\\Store\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Meta\\Desktop\\maktab\\_projects\\Store\\Store\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Meta\\Desktop\\maktab\\_projects\\Store\\Store\\wwwroot\\images\\emptycart.png",
+      "PackagePath": "staticwebassets\\images\\emptycart.png"
+    },
+    {
+      "Id": "C:\\Users\\Meta\\Desktop\\maktab\\_projects\\Store\\Store\\wwwroot\\js\\datatables-simple-demo.js",
+      "PackagePath": "staticwebassets\\js\\datatables-simple-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\Meta\\Desktop\\maktab\\_projects\\Store\\Store\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Store.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Store.props",
+      "PackagePath": "build\\Store.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Store.props",
+      "PackagePath": "buildMultiTargeting\\Store.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Store.props",
+      "PackagePath": "buildTransitive\\Store.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
